@@ -1,0 +1,550 @@
+
+body{
+    background-color:  #1f1f1f;
+    color:rgb(143, 188, 188);
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.5em;
+    font-style:normal;
+    margin: 50px;
+    padding: 50px;   
+}
+
+.sectionTitle{
+    text-align: center;
+    font-size: 1.5em;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.button1{
+    background-color: #1f1f1f;
+    border-radius: 10px 10px 10px 10px;
+  
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+     
+
+    a{
+        color:#666666;
+    }
+
+    a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+    }
+    
+}
+
+.button1:hover{
+    background-color: #322f2f;
+}
+
+.button2{
+    background-color: #1f1f1f;
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;    
+}
+.button2:hover{
+    background-color: #322f2f;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    flex-wrap: wrap; 
+}
+.box{
+    width: 200px;
+    height: 325px;
+    border-radius: 30px 30px 30px 30px;    
+    box-shadow: 10px 10px 25px #000000;  
+    background-color: #c7c6c6;
+
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/      /* si je veux afficher l'image en entier dans la box du container,
+                                 je dois passer la box en container flex puis la centrer sur les deux axes*/
+}
+
+.box img{
+    /*max-*/width: 100%;
+    /*max-*/height: 100%;
+    border-radius: 30px 30px 30px 30px; 
+    object-fit: cover;  /* l’image remplit le bloc sans se déformer */
+}
+
+.one {
+    order: 1;
+    margin: auto;
+}
+
+.two {
+    order: 2; 
+    margin: auto;
+}
+
+.three {
+    order: 3;
+    margin: auto;
+}
+
+.four {
+    order: 4;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+    
+    gap: 50px;
+    
+    margin: 40px auto; /* marges haut/bas + centrage horizontal */
+    padding: 20px;   /* marge intérieure autour des éléments */
+
+    width: fit-content; /* la grille s’adapte au contenu */
+    
+}
+/*.chara1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    
+}
+ .chara2{
+    grid-column: 2/2;
+    grid-row: 1/1;
+ }
+
+ .chara3 {
+    grid-column: 3/3;
+    grid-row: 1/1;
+    
+ }
+
+ .chara4 {
+    grid-column: 4/4;
+    grid-row: 1/1;
+ }
+
+ .chara5 {
+    grid-column: 5/5;
+    grid-row: 1/1;
+ }
+
+.chara6 {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    
+}
+ .chara7 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+   
+ }
+
+ .chara8 {
+    grid-column: 3/3;
+    grid-row: 2/2;
+    
+ }
+
+ .chara9 {
+    grid-column: 4/4;
+    grid-row: 2/2;
+ }
+
+ .chara10 {
+    grid-column: 5/5;
+    grid-row: 2/2;
+ }
+
+.chara11 {
+    grid-column: 1/1;
+    grid-row: 3/3;
+ }
+
+.chara12 {
+    grid-column: 2/2;
+    grid-row: 3/3;
+ }
+
+ .chara13 {
+    grid-column: 3/3;
+    grid-row: 3/3;
+ }
+
+.chara14 {
+    grid-column: 4/4;
+    grid-row: 3/3;
+ }*/
+
+.chara15 {
+    grid-column: 5/5;
+    grid-row: 3/5;
+ }
+/*
+.chara16 {
+    grid-column: 1/1;
+    grid-row: 4/4;
+ }
+
+.chara17 {
+    grid-column: 2/2;
+    grid-row: 4/4;
+ }
+
+.chara18 {
+    grid-column: 3/3;
+    grid-row: 4/4;
+ } 
+
+.chara19 {
+    grid-column: 4/4;
+    grid-row: 4/4;
+ } 
+
+.chara20{
+    grid-column: 5/5; 
+    grid-row: 5/5;
+ } 
+
+.chara21{
+    grid-column: 1/1; 
+    grid-row: 6/6;
+ } 
+
+.chara22 {
+    grid-column: 2/2;
+    grid-row:6/6;
+}*/
+ 
+.box2 {
+    border-radius: 20px 20px 20px 20px;    
+    box-shadow: 10px 10px 25px #000000;  
+    background-color: #c7c6c6;
+    overflow: hidden;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px; 
+    object-fit: cover; 
+}
+
+
+.container-image-link {     /*Définit ce bloc comme référence pour les enfants positionnés en absolute
+                            L’overlay va prendre exactement la taille de ce parent grâce à top:0; left:0; right:0; bottom:0;     */
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.imagePortfolio{
+   
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: none;        /* élément caché*/
+
+  align-items: center;
+  justify-content: center;
+  font-size: 0.70em;
+  color: white;
+  background-color: rgba(0,0,0,0.7); /* semi-transparent */
+  
+}
+
+.container-image-link:hover .imagePortfolio{        /*“Quand je survole .container-image-link, applique les styles .imagePortfolio à l’intérieur.”*/
+    display: flex;  /* quand on survol, l'élément devient visible*/
+}
+
+
+
+
+.linkColor{
+    color: #363232;
+    background: linear-gradient(90deg, #d7dfd7,#e3e3e3);
+    a{
+        color: #699b3d;
+    }
+}
+
+.banniere {
+    padding: 255px;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                      url("images/CS_bannière_001.png");
+    background-attachment: sticky;
+    background-size: cover;
+    background-position: bottom -30px left 0;
+    color:#f1f3f2;
+    width: 70%;
+    height: 50%;
+    text-align: center; 
+
+}
+
+.banniereCohibouProject {
+    padding: 255px;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                      url("images/brouillons/ban_test_site.jpg");
+    
+    background-attachment: sticky;
+    background-size: cover;
+    background-position: center;
+
+    color:#f1f3f2;
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;       
+  
+    text-align: center ; 
+}
+
+.banniereBeetlesAmongUs {
+    padding: 255px;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                      url("images/CDP/banniereColeopteres2.jpg");
+    
+    background-attachment: sticky;
+    background-size: cover;
+    background-position: center;
+
+    color:#f1f3f2;
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;       
+  
+    text-align: center ; 
+}
+
+.banniereIllustrations {
+    padding: 255px;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+                      url("images/Illustrations/Format_Céphalopodes_001.jpg");
+    
+    background-attachment: sticky;
+    background-size: cover;
+    background-position: center;
+
+    color:#f1f3f2;
+    width: 70%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;       
+  
+    text-align: center ; 
+}
+
+.banniere2 {
+   background: linear-gradient(90deg, #e4e7e4,#e3e3e3);
+    a{    
+        color:#505350
+    }
+    
+    margin: 50px;
+    padding: 50px;
+}
+
+a{
+    text-decoration: wavy;
+}
+
+a:hover{
+    color:#97b1e9;
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration-color: #e27476;
+}
+
+a:focus{
+    background-color: #b7b9b7;
+    color:#0f1010;
+    outline-color: #3cb0bb;
+}
+
+
+/*a:visited {
+    color:black;
+}*/
+
+.demo-border{
+    border-top: 15px solid #c6c7c6;
+    border-bottom: 15px solid #c6c7c6;
+    border-right: 15px solid #c6c7c6;
+    border-left: 15px solid #c6c7c6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 25px #000000;
+    border-style:hidden;
+    
+}
+
+.demo-border2{
+     border-top: 15px solid #c6c7c6;
+     border-bottom: 15px solid #c6c7c6;
+     border-right: 15px solid #c6c7c6;
+     border-left: 15px solid #c6c7c6;
+     border-radius: 10px 10px 10px 10px ;
+     box-shadow: 10px 10px 25px #a3a3a3;
+     border-style:hidden;
+    
+}
+
+.ombre{
+     box-shadow: 6px 6px 15px #d9dddb;  
+}
+
+.ombreColeopteres{
+     box-shadow: 6px 6px 15px #d9dddb;  
+}
+
+h1{
+    color:#322929;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 2.5em;
+    text-shadow:3px 3px 0px #4d4d4d;
+}
+
+
+h4{
+    color:rgb(146, 152, 152);
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1em;
+    font-style:italic;
+}
+
+td, th{
+    border: 2px solid rgb(249, 237, 237);
+    padding: 15px;
+    
+}
+table{
+    border-collapse: collapse;
+    background-color: #6e756e;
+    margin: auto;
+   
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+
+img:hover + h3{
+    color: #aaacad;
+}
+
+
+.julius-sans-one-regular {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gras{
+    font-weight:700 ;
+}
+
+.decoration{
+    text-decoration: underline;
+    color: #3E2C1F;
+}
+
+.encyclopedie{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+input{
+    padding: 10px;
+    border: 3px solid rgb(168, 163, 163);
+}
+input[type='range']{
+    -webkit-appearance: none;
+    width: 300px;
+}
+/*barre*/
+input[type='range']::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: #ccc;
+    height: 10px;
+    border-radius: 9px;
+    
+}
+/*Curseur*/
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;   /*sert à supprimer le style par défaut appliqué par le navigateur à certains éléments*/
+    background: #746163;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -7px;
+}
+textarea{
+    padding: 10px;
+    border: 3px solid rgb(168, 163, 163);
+    width: 50%;
+    height: 50%;
+}
+input[type='submit']{
+    margin-top: 20px;
+    font-size: 1em;
+}
+fieldset{
+    background-color: #4b4e4b;
+}
+legend{
+    background-color: #222321;
+}
+
+.yo {
+    color: #f1f3f2;
+    text-align: center;
+}
+:required{
+    background-color: #f4a1a1;
+}
+
+/*Ce code signifie : “Il faut mettre la police d’écriture en gras pour tous les span contenus dans un élément qui a l’id zoneProposition.” 
+#zoneTestJs span {
+    font-weight: bold;
+}*/
+
+.salutCava {
+    color: #6cb672;
+}
+
+.center {
+    text-align: center;
+}
