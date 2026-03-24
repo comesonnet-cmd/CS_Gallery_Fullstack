@@ -56,7 +56,8 @@ const images = [
     "CS_Oeuvre33.jpg"
 ];
 
-images.forEach((img, index) => {
+if (container) {
+  images.forEach((img, index) => {
     const div = document.createElement("div");
     div.className = `box2 chara${index + 1}`;
 
@@ -69,3 +70,41 @@ images.forEach((img, index) => {
 
   container.appendChild(div);
 });
+}
+
+
+const beetles = [
+  {
+    name: "Bousier commun",
+    scientificName: "Scarabaeus laticolis",
+    size: "entre 16 et 22 mm",
+    image: "images/CDP/CDP_01.jpg",
+    alt: "Bousier commun"
+  },
+
+  {
+    name: "Lucane cerf-volant",
+    scientificName: "Lucanus cervus",
+    size: "8 cm",
+    image: "images/CDP/lucane_cerf_volant.jpg",
+    alt: "Lucanus cervus"
+  }
+];
+
+const tableBody = document.getElementById("beetles-table-body");
+
+if (tableBody) {
+  beetles.forEach(beetle => {
+
+  const row = document.createElement("tr");
+
+  row.innerHTML = `
+    <td><img src="${beetle.image}" alt="${beetle.alt}" width="120"></td>
+    <td>${beetle.name}</td>
+    <td><em>${beetle.scientificName}</em></td>
+    <td>${beetle.size}</td>
+    `;
+
+    tableBody.appendChild(row); 
+});
+}
