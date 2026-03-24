@@ -88,7 +88,72 @@ const beetles = [
     size: "8 cm",
     image: "images/CDP/lucane_cerf_volant.jpg",
     alt: "Lucanus cervus"
+  },
+
+   {
+    name: "Cardinal rouge",
+    scientificName: "Pyrochroa serraticornis",
+    size: "entre 10 et 15 mm",
+    image: "images/CDP/cardinal_rouge.jpg",
+    alt: "Pyrochroa serraticornis"
+  },
+
+   {
+    name: "Méloé enfle-boeuf",
+    scientificName: "Meloe proscarabaeus",
+    size: "3 cm",
+    image: "images/CDP/Méloé_Enfle_Boeuf.jpg",
+    alt: "Meloe proscarabaeus"
+  },
+
+   {
+    name: "Petite vrillette",
+    scientificName: "Anobium punctatum",
+    size: "5 mm",
+    image: "images/CDP/petite_vrillette.jpg",
+    alt: "Anobium punctatum"
+  },
+
+   {
+    name: "Taupin acajou",
+    scientificName: "Athous haemorrhoidalis",
+    size: " entre 9,5  15 mm",
+    image: "images/CDP/taupin_acajou.jpg",
+    alt: "Athous haemorrhoidalis"
+  },
+
+   {
+    name: "Hanneton commun",
+    scientificName: "Melolontha melolontha",
+    size: "entre 2,5 et 3 cm",
+    image: "images/CDP/hanneton.jpg",
+    alt: "Melolontha melolontha"
+  },
+
+   {
+    name: "Cigarier",
+    scientificName: "Byctiscus betulae",
+    size: "entre 5 et 8 mm",
+    image: "images/CDP/cigarier.jpg",
+    alt: "Byctiscus betulae"
+  },
+
+   {
+    name: "Lucane cerf-volant",
+    scientificName: "Lucanus cervus",
+    size: "8 cm",
+    image: "images/CDP/lucane_cerf_volant.jpg",
+    alt: "Lucanus cervus"
+  },
+
+   {
+    name: "Lucane cerf-volant",
+    scientificName: "Lucanus cervus",
+    size: "8 cm",
+    image: "images/CDP/lucane_cerf_volant.jpg",
+    alt: "Lucanus cervus"
   }
+
 ];
 
 const tableBody = document.getElementById("beetles-table-body");
@@ -99,12 +164,18 @@ if (tableBody) {
   const row = document.createElement("tr");
 
   row.innerHTML = `
-    <td><img src="${beetle.image}" alt="${beetle.alt}" width="120"></td>
+    <td>
+      <a href="${beetle.image}" class="container-image-link">
+        <img src="${beetle.image}" alt="${beetle.alt}" width="120">
+        <div class="imagePortfolio">Voir le coléoptère</div>
+      </a>
+    </td>
     <td>${beetle.name}</td>
     <td><em>${beetle.scientificName}</em></td>
     <td>${beetle.size}</td>
     `;
 
+    
     tableBody.appendChild(row); 
 });
 }

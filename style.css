@@ -439,15 +439,34 @@ h4{
     font-style:italic;
 }
 
-td, th{
-    border: 2px solid rgb(249, 237, 237);
+td {
+    border: 1px solid rgb(249, 237, 237);
     padding: 15px;
-    
+    background-image: url("images/CDP/font.jpg");  
+    color:#000000;
+    text-align: center;
+}
+
+caption {
+     
+     padding: 20px;
+     color: rgb(161, 179, 215);            
+     text-transform: uppercase;
+     font-size: 1.5em;
+}
+
+th {
+     border: 1px solid rgb(249, 237, 237);
+     padding: 15px;
+     background-color: #9ca49d; 
+     color: rgb(80, 79, 79);              
+     text-transform: uppercase;
 }
 table{
+    width: 100%;
     border-collapse: collapse;
-    background-color: #6e756e;
-    margin: auto;
+    background-image: url("images/CDP/font.jpg");           
+    margin: 20px 0;
    
 }
 
