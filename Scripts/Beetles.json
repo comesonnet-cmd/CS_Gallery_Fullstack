@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Bousier commun",
+    "scientificName": "Scarabaeus laticolis",
+    "size": "entre 16 et 22 mm",
+    "image": "images/CDP/CDP_01.jpg",
+    "alt": "Bousier commun"
+  },
+
+  {
+    "id": 2,
+    "name": "Lucane cerf-volant",
+    "scientificName": "Lucanus cervus",
+    "size": "8 cm",
+    "image": "images/CDP/lucane_cerf_volant.jpg",
+    "alt": "Lucanus cervus"
+  },
+
+   {
+    "id": 3,
+    "name": "Cardinal rouge",
+    "scientificName": "Pyrochroa serraticornis",
+    "size": "entre 10 et 15 mm",
+    "image": "images/CDP/cardinal_rouge.jpg",
+    "alt": "Pyrochroa serraticornis"
+  },
+
+   {
+    "id": 4,
+    "name": "Méloé enfle-boeuf",
+    "scientificName": "Meloe proscarabaeus",
+    "size": "3 cm",
+    "image": "images/CDP/Méloé_Enfle_Boeuf.jpg",
+    "alt": "Meloe proscarabaeus"
+  },
+
+   {
+    "id": 5,
+    "name": "Petite vrillette",
+    "scientificName": "Anobium punctatum",
+    "size": "5 mm",
+    "image": "images/CDP/petite_vrillette.jpg",
+    "alt": "Anobium punctatum"
+  },
+
+   {
+    "id": 6,
+    "name": "Taupin acajou",
+    "scientificName": "Athous haemorrhoidalis",
+    "size": " entre 9,5  15 mm",
+    "image": "images/CDP/taupin_acajou.jpg",
+    "alt": "Athous haemorrhoidalis"
+  },
+
+   {
+    "id": 7,
+    "name": "Hanneton commun",
+    "scientificName": "Melolontha melolontha",
+    "size": "entre 2,5 et 3 cm",
+    "image": "images/CDP/hanneton.jpg",
+    "alt": "Melolontha melolontha"
+  },
+
+   {
+    "id": 8,
+    "name": "Cigarier",
+    "scientificName": "Byctiscus betulae",
+    "size": "entre 5 et 8 mm",
+    "image": "images/CDP/cigarier.jpg",
+    "alt": "Byctiscus betulae"
+  },
+
+   {
+    "id": 9,
+    "name": "Lucane cerf-volant",
+    "scientificName": "Lucanus cervus",
+    "size": "8 cm",
+    "image": "images/CDP/lucane_cerf_volant.jpg",
+    "alt": "Lucanus cervus"
+  },
+
+   {
+    "id": 10,
+    "name": "Lucane cerf-volant",
+    "scientificName": "Lucanus cervus",
+    "size": "8 cm",
+    "image": "images/CDP/lucane_cerf_volant.jpg",
+    "alt": "Lucanus cervus"
+  }
+
+]

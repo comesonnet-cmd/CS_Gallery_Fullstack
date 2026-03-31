@@ -1,0 +1,154 @@
+ [
+   {
+    "id": 1,
+    "name": "Character 1",
+    "image": "CS_Oeuvre1.jpg",
+    "alt": "Character 1"
+   },
+
+    {
+      "id": 2,
+      "name": "Character 2",
+      "image": "CS_Oeuvre2.jpg",
+      "alt": "Character 2"
+    },
+    {
+      "id": 3,
+      "name": "Character 3",
+      "image": "CS_Oeuvre_4.jpg",
+      "alt": "Character 3"
+    },
+    {
+      "id": 4,
+      "name": "Character 4",
+      "image": "CS_Oeuvre_5.jpg",
+      "alt": "Character 4"
+    },
+    {
+      "id": 5,
+      "name": "Character 5",
+      "image": "CS_Oeuvre_6.jpg",
+      "alt": "Character 5"
+    },
+    {
+      "id": 6,
+      "name": "Character 6",
+      "image": "CS_Oeuvre_7.jpg",
+      "alt": "Character 6"
+    },
+    {
+      "id": 7,
+      "name": "Character 7",
+      "image": "CS_Oeuvre8.jpg",
+      "alt": "Character 7"
+    },
+    {
+      "id": 8,
+      "name": "Character 8",
+      "image": "CS_Oeuvre9.jpg",
+      "alt": "Character 8"
+    },
+    {
+      "id": 9,
+      "name": "Character 9",
+      "image": "CS_Oeuvre10.jpg",
+      "alt": "Character 9"
+    },
+    {
+      "id": 10,
+      "name": "Character 10",
+      "image": "CS_Oeuvre11.jpg",
+      "alt": "Character 10"
+    },
+    {
+      "id": 11,
+      "name": "Character 11",
+      "image": "CS_Oeuvre19.jpg",
+      "alt": "Character 11"
+    },
+    {
+      "id": 12,
+      "name": "Character 12",
+      "image": "CS_Oeuvre22.jpg",
+      "alt": "Character 12"
+    },
+    {
+      "id": 13,
+      "name": "Character 13",
+      "image": "CS_Oeuvre21.jpg",
+      "alt": "Character 13"
+    },
+    {
+      "id": 14,
+      "name": "Character 14",
+      "image": "CS_Oeuvre20.jpg",
+      "alt": "Character 14"
+    },
+    {
+      "id": 15,
+      "name": "Character 15",
+      "image": "CS_Oeuvre23.jpg",
+      "alt": "Character 15"
+    },
+    {
+      "id": 16,
+      "name": "Character 16",
+      "image": "CS_Oeuvre24.jpg",
+      "alt": "Character 16"
+    },
+    {
+      "id": 17,
+      "name": "Character 17",
+      "image": "CS_Oeuvre25.jpg",
+      "alt": "Character 17"
+    },
+    {
+      "id": 18,
+      "name": "Character 18",
+      "image": "CS_Oeuvre26.jpg",
+      "alt": "Character 18"
+    },
+    {
+      "id": 19,
+      "name": "Character 19",
+      "image": "CS_Oeuvre27.jpg",
+      "alt": "Character 19"
+    },
+    {
+      "id": 20,
+      "name": "Character 20",
+      "image": "CS_Oeuvre28.jpg",
+      "alt": "Character 20"
+    },
+    {
+      "id": 21,
+      "name": "Character 21",
+      "image": "CS_Oeuvre29.jpg",
+      "alt": "Character 21"
+    },
+    {
+      "id": 22,
+      "name": "Character 22",
+      "image": "CS_Oeuvre30.jpg",
+      "alt": "Character 22"
+    },
+    {
+      "id": 23,
+      "name": "Character 23",
+      "image": "CS_Oeuvre31.jpg",
+      "alt": "Character 23"
+    },
+    {
+      "id": 24,
+      "name": "Character 24",
+      "image": "CS_Oeuvre32.jpg",
+      "alt": "Character 24"
+    },
+    {
+      "id": 25,
+      "name": "Character 25",
+      "image": "CS_Oeuvre33.jpg",
+      "alt": "Character 25"
+    }
+    
+]
